@@ -1,16 +1,42 @@
-# ingilizcego
+#İngilizceGo
 
-A new Flutter project.
+İngilizceGo is a mobile application that helps you to save and organize your vocabulary words. The app is built using Flutter, and it uses the following libraries:
 
-## Getting Started
+flutter_slidable: ^2.0.0
+hive: ^2.2.3
+hive_flutter: ^1.1.0
+google_fonts: ^3.0.1
+path_provider: ^2.0.11
+rename: ^2.1.1
+introduction_screen: ^3.1.4
+flutter_native_splash: ^2.0.4
+Features
+Save words and their meanings
+Organize words in categories
+Search for words
+Edit and delete words
+Customizable font and theme
+Getting started
+Clone the repository
 
-This project is a starting point for a Flutter application.
+##Features
+Organize words in categories
+Delete words
 
-A few resources to get you started if this is your first Flutter project:
+##Getting started
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+###Clone the repository
+``````
+$ git clone https://github.com/YOUR-USERNAME/WordKeeper.git```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Install the dependencies
+```$ flutter pub get```
+
+Run the app
+```$ flutter run```
+
+## Contributing
+We welcome contributions to this project. If you have an idea for a new feature or have found a bug, please open an issue to discuss it. If you want to implement a new feature or fix a bug yourself, please fork the repository and submit a pull request.
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
