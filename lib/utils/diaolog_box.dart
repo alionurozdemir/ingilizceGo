@@ -29,6 +29,7 @@ class DialogBox extends StatelessWidget {
             TextField(
               controller: wordController,
               decoration: const InputDecoration(
+                filled: true,
                 border: OutlineInputBorder(),
                 hintText: "Kelime[EN] ",
               ),
@@ -37,6 +38,7 @@ class DialogBox extends StatelessWidget {
             TextField(
               controller: meaningController,
               decoration: const InputDecoration(
+                filled: true,
                 border: OutlineInputBorder(),
                 hintText: "Anlamı[TR]",
               ),

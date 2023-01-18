@@ -22,7 +22,7 @@ class _HomePageState extends State<HomePage> {
   @override
   void initState() {
     // if this is 1st time ever openin the app, then create data
-    if (_myBox.get("TODOLIST") == null) {
+    if (_myBox.get("WORDLIST") == null) {
       db.createInitialData();
     } else {
       db.loadData();
@@ -75,15 +75,19 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.yellow[200],
+      backgroundColor: Colors.yellow[100],
       appBar: AppBar(
-        title: const Text(
-          "İ N G İ L İ Z C E G O ",
+        title: Padding(
+          padding: const EdgeInsets.all(15.0),
+          child: Image.asset(
+            height: 40,
+            "assets/images/logo.png",
+          ),
         ),
         elevation: 0,
       ),
       floatingActionButton: FloatingActionButton(
-        backgroundColor: Colors.grey,
+        backgroundColor: Colors.yellow,
         onPressed: createNewTask,
         child: const Icon(Icons.add),
       ),

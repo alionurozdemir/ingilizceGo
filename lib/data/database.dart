@@ -21,11 +21,11 @@ class ToDoDataBase {
   //load the data from data base
 
   void loadData() {
-    toDoList = _myBox.get("TODOLIST");
+    toDoList = _myBox.get("WORDLIST");
   }
 
 //updata the database
   void updataDataBase() {
-    _myBox.put("TODOLIST", toDoList);
+    _myBox.put("WORDLIST", toDoList);
   }
 }
