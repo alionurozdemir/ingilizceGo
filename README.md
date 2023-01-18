@@ -23,7 +23,7 @@
 ### Clone the repository
 
 ```
-$ git clone [https://github.com/YOUR-USERNAME/WordKeeper.git]
+$ git clone [https://github.com/alionurozdemir/ingilizceGo.git]
 ```
 
 ###### Install the dependencies
